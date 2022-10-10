@@ -23,20 +23,6 @@ def watchdog():
 
 filename_cpanel = "Vulns/vuln_cpanel.txt"
 fisier_vuln_cpanel = open(filename_cpanel,'a')
-
-
-class brute(threading.Thread): 
-	def __init__(self, queue):
-		threading.Thread.__init__(self)
-		self.queue = queue		
-	def run(self):
-		while True:
-			ip,user,passwd = self.queue.get()
-			self.bruter(ip,user,passwd)
-			self.queue.task_done()
-			
-	def bruter(self,ip,user,passwd):
-		try:
 			if ip in found: return False
 
 			url = ip
