@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="34">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>7</ID>
+      <Description>"pointerscan result"</Description>
+      <LastState Value="22" RealAddress="1F9F7C9F220"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"mono.dll"+002640E8</Address>
+      <Offsets>
+        <Offset>20</Offset>
+        <Offset>10</Offset>
+        <Offset>10</Offset>
+        <Offset>568</Offset>
+        <Offset>A0</Offset>
+        <Offset>10</Offset>
+        <Offset>200</Offset>
+      </Offsets>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+</CheatTable>
